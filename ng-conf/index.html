@@ -81,7 +81,7 @@ border-radius: 5px;
     <img src="logo.jpg" class="logo" alt="ng-conf" />
   </div>
   <div class="Info">
-      <h1>Acompanhe ao-vivo a maior conferência de AngularJS do mundo!</h1>
+      <h1>Acompanhe ao vivo a maior conferência de AngularJS do mundo!</h1>
       <p>O GDG Recife preparou uma surpresa para você que quer estar atualizado com as últimas novidades do AngularJS. Estaremos transmitindo, ao vivo, a ng-conf 2015, que está sendo realizada nos próximos dias 5 e 6 de Março. Iremos ver e discutir, em tempo real com o evento oficial, todas os updates e surpresas do framework de JavaScript que mais cresce em popularidade. Inscreva-se agora!</p>
       <div class="center-buttons">
       <a href="http://www.eventick.com.br/ng-conf-extended-gdg-recife" target="_blank" class="button-block-blue margin-right">Inscreva-se agora</a>
@@ -91,7 +91,7 @@ border-radius: 5px;
   </div>
   <div class="Days">
     <div class="Day" ng-repeat="day in ctrl.schedule">
-      <div class="Day__title">{{day.day}}</div>
+      <div class="Day__title">{day.day}</div>
       <div class="DaySchedule">
         <div class="DaySchedule__item" ng-repeat="item in day.items">
           <div class="DaySchedule__time">{{item.time}}</div>
