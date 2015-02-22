@@ -33,7 +33,7 @@
       },
       {
         "time": "13:25",
-        "title": "Almoço<br /><strong>Não oferecido pelo evento.</strong>"
+        "title": "Almoço<br /><i><small>Não oferecido pelo evento.</small></i>"
       },
       {
         "time": "15:20",
@@ -120,7 +120,7 @@
       },
       {
         "time": "13:50",
-        "title": "Almoço<br /><strong>Não oferecido pelo evento.</strong>"
+        "title": "Almoço<br /><i><small>Não oferecido pelo evento.</small></i>"
       },
       {
         "time": "15:20",
@@ -178,7 +178,7 @@
       },
       {
         "time": "20:00",
-        "title": "Happy Hour/Jantar"
+        "title": "Happy Hour/Jantar<br /><i><small>Não oferecido pelo evento, cada um paga o seu!</small></i>"
       }
     ]
   }
