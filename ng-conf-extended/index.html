@@ -10,15 +10,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0-beta.3/angular.min.js"></script>
   <script src="http://schedule.ng-conf.org/schedule.js"></script>
+  <style>
+    .logo {max-width: 80%;}  
+  </style>
 </head>
 <body class="Schedule" ng-app="schedule" ng-controller="ScheduleCtrl as ctrl">
   <div class="Header">
-    <img src="logo.svg" alt="ng-conf" />
-
-    <div class="Legend">
-      <div class="Legend__key DaySchedule__extra"></div>
-      <div class="Legend__key">Requires Extra Ticket</div>
-    </div>
+    <img src="logo.png" class="logo" alt="ng-conf" />
   </div>
   <div class="Days">
     <div class="Day" ng-repeat="day in ctrl.schedule">
