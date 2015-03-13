@@ -36,7 +36,7 @@ function initialize_map()
 
   var marker = new google.maps.Marker({
     position: geoPoint,
-    icon: '/img/gdg-marker.png',
+    icon: 'http://gdgrecife.com/extended/img/gdg-marker.png',
     map: map
   });
 }
