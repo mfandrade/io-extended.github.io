@@ -45,7 +45,7 @@ google.maps.event.addDomListener(window, 'load', initialize_map);
 function addMarker() {
   var marker = new google.maps.Marker({
     position: geoPoint,
-    icon: '/img/gdgbh-marker.png',
+    icon: 'img/gdgbh-marker.png',
     map: map
   });
 }
