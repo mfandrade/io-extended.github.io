@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description></description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 13 Mar 2015 16:28:41 -0300</pubDate>
-    <lastBuildDate>Fri, 13 Mar 2015 16:28:41 -0300</lastBuildDate>
+    <link>http://gdgrecife.com/extended/</link>
+    <atom:link href="http://gdgrecife.com/extendedhttp://gdgrecife.com/extended/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 13 Mar 2015 16:38:01 -0300</pubDate>
+    <lastBuildDate>Fri, 13 Mar 2015 16:38:01 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
   </channel>
