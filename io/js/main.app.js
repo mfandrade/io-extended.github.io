@@ -4,7 +4,7 @@ function initialize_map()
 {
   var mapOptions = {
     center: geoPoint,
-    zoom: 15,
+    zoom: 17,
     mapTypeControl: true,
     mapTypeControlOptions: {
         style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR
@@ -60,12 +60,14 @@ function init() {
             shrinkOn = 1,
             header = document.querySelector("header");
         if (distanceY > shrinkOn && mustShake==false) {
+            document.getElementById("logo-evento").src = "img/logo-hover.png";
             $('.navbar').animate({'backgroundColor':'#FFFFFF', 'boxShadow' : '0 0 5px #000000'}, 600)
-            $('.navbar-nav>li>a ').animate({'color':'#000000'}, 600)
-            mustShake =true
+            $('.navbar-nav>li>a ').animate({'color':'#000000'}, 300)
+            mustShake = true
         } else if (distanceY < shrinkOn && mustShake==true) {
-          $('.navbar').animate({'backgroundColor':'#673AB7', boxShadow : "0 0 0px 0px rgba(100,100,200,0.4)"}, 600)
-          $('.navbar-nav>li>a ').animate({'color':'#FFFFFF'}, 600)
+            document.getElementById("logo-evento").src = "img/logo.png";
+          $('.navbar').animate({'backgroundColor':'#00BCD4', boxShadow : "0 0 0px 0px rgba(100,100,200,0.4)"}, 600)
+          $('.navbar-nav>li>a ').animate({'color':'#FFFFFF'}, 300)
           mustShake = false;
             
         }
@@ -79,7 +81,7 @@ $("#main-nav ul li a[href^='#']").on('click', function(e) {
    var hash = this.hash;
    // animate
    $('html, body').animate({
-       scrollTop: $(hash).offset().top
+       scrollTop: $(hash).offset().top - 100
      }, 300, function(){
        // when done, add hash to url
        // (default click behaviour)
