@@ -7,8 +7,11 @@
 
 * Logo do GDG [/img/logo.png]
 * Fundo com chamada para o evento e cidade [/img/site.png]
-* Organização, patrocinadores e parceiros [/img/partners]
+* Organização, patrocinadores e parceiros [/img/partners/]
 * Palestrantes [/img/bigheads/]
+
+## Sharing
+Edite no [index.html] a seção comentada por ``<!--FACEBOOK-->`` no ``head``. Essas informações irão aparecer quando o link for compartilhado tanto no Facebook quanto no Google+. Para inserir uma imagem customizada, adicione uma imagem em [img/og_image_ext.png]
 
 ## Informações
 
