@@ -2,6 +2,7 @@
 
 Site HTML plano gerado a partir do
 [template](https://github.com/gxgbrasil/io-extended.github.io) para
-sites de eventos.
+sites dos eventos.
 
-Veja-o online em: [http://www.gdgbelem.com.br](gdgbelem.com.br).
+Veja-o online em [gdgbelem.com.br](http://www.gdgbelem.com.br).
+
