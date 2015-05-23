@@ -1,0 +1,2 @@
+# This site is just plain HTML
+exclude: [CNAME, LICENSE, README.md]
